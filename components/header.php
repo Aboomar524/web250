@@ -9,6 +9,8 @@
           <li><a href="contract.php">Contract</a></li>
           <li><a href="multipage/superduper_php/">Multipage PHP</a></li>
           <li><a href="multipage/superduper_static/">Multipage HTML</a></li>
+          <li><a href="joy_of_php/">joy_of_php</a></li>
+          <li><a href="joy_of_php/samsusedcars.html">Sam's Used Cars</a></li>
       </ul>
   </nav>
 </header>
