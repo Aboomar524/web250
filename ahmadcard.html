@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad Alhomair | Full-Stack Programmer</title>
+  <style>
+    body {
+      background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      width: 600px;
+      height: 300px;
+      display: flex;
+      background: linear-gradient(to right, #1e2a38 50%, #b31d38 50%);
+      color: white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      position: relative;
+    }
+    .left, .right {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .left {
+      width: 50%;
+      text-align: center;
+      background-color: rgba(0,0,0,0.1);
+    }
+    .left h1 {
+      font-size: 1.6rem;
+      margin: 0;
+    }
+    .left h2 {
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+    .logo {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    .right {
+      width: 50%;
+      color: white;
+      font-size: 0.9rem;
+    }
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .icon {
+      font-size: 1.2rem;
+      width: 24px;
+      margin-right: 10px;
+    }
+    .highlight-bar {
+      position: absolute;
+      left: 48%;
+      top: 0;
+      bottom: 0;
+      width: 12px;
+      background: gold;
+      transform: skew(-20deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="left">
+      <div class="logo">👨‍💻</div>
+      <h1>AHMAD ALHOMAIR</h1>
+      <h2>FULL-STACK PROGRAMMER</h2>
+    </div>
+    <div class="highlight-bar"></div>
+    <div class="right">
+      <div class="info-item"><span class="icon">🏠</span> 117 Developer Lane, Charlotte, NC</div>
+      <div class="info-item"><span class="icon">📞</span> 980.777.4321</div>
+      <div class="info-item"><span class="icon">✉️</span> aboomar@gmail.com</div>
+      <div class="info-item"><span class="icon">🌐</span> github: ahmadalhomair</div>
+    </div>
+  </div>
+</body>
+</html>
