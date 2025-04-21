@@ -14,53 +14,71 @@
       height: 100vh;
       margin: 0;
     }
+
     .card {
       width: 600px;
-      height: 300px;
+      height: 320px;
       display: flex;
       background: linear-gradient(to right, #1e2a38 50%, #b31d38 50%);
       color: white;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
       position: relative;
     }
+
     .left, .right {
       padding: 20px;
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
+
     .left {
       width: 50%;
       text-align: center;
       background-color: rgba(0,0,0,0.1);
     }
+
     .left h1 {
       font-size: 1.6rem;
       margin: 0;
     }
+
     .left h2 {
       font-size: 0.9rem;
       color: #ddd;
+      margin: 5px 0;
     }
+
+    .slogan {
+      font-size: 0.85rem;
+      color: #ffc;
+      font-style: italic;
+      margin-top: 10px;
+    }
+
     .logo {
       font-size: 50px;
       margin-bottom: 10px;
     }
+
     .right {
       width: 50%;
       color: white;
       font-size: 0.9rem;
     }
+
     .info-item {
       display: flex;
       align-items: center;
       margin-bottom: 8px;
     }
+
     .icon {
       font-size: 1.2rem;
       width: 24px;
       margin-right: 10px;
     }
+
     .highlight-bar {
       position: absolute;
       left: 48%;
@@ -70,6 +88,12 @@
       background: gold;
       transform: skew(-20deg);
     }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
   </style>
 </head>
 <body>
@@ -78,15 +102,22 @@
       <div class="logo">👨‍💻</div>
       <h1>AHMAD ALHOMAIR</h1>
       <h2>FULL-STACK PROGRAMMER</h2>
+      <div class="slogan">"Innovating with passion at Syriatech"</div>
     </div>
     <div class="highlight-bar"></div>
     <div class="right">
+      <div class="info-item"><span class="icon">🏢</span> Syriatech</div>
       <div class="info-item"><span class="icon">🏠</span> 117 Developer Lane, Charlotte, NC</div>
       <div class="info-item"><span class="icon">📞</span> 980.777.4321</div>
-      <div class="info-item"><span class="icon">✉️</span> aboomar@gmail.com</div>
-      <div class="info-item"><span class="icon">🌐</span> github: ahmadalhomair</div>
+      <div class="info-item"><span class="icon">✉️</span> <a href="mailto:aboomar@gmail.com" style="color: #fff; text-decoration: none;">aboomar@gmail.com</a></div>
+      <div class="info-item"><span class="icon">🌐</span> github.com/ahmadalhomair</div>
     </div>
   </div>
+
+  <footer>
+    <a href="https://validator.w3.org/" target="_blank">
+      <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML Validator" height="32">
+    </a>
+  </footer>
 </body>
 </html>
-
